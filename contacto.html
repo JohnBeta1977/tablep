@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Tabla Periódica</title>
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; background: #fce7f3; }
+    header { background: #be185d; color: white; padding: 1rem; text-align: center; }
+    main { max-width: 600px; margin: auto; padding: 2rem; }
+    form { display: flex; flex-direction: column; gap: 1rem; }
+    input, textarea { padding: 0.75rem; border-radius: 6px; border: 1px solid #ccc; }
+    button { background: #be185d; color: white; border: none; padding: 0.75rem; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header><h1>Contacto</h1></header>
+  <main>
+    <form>
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <textarea rows="5" placeholder="Mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+</body>
+</html>
